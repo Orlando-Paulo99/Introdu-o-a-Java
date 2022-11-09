@@ -1,0 +1,18 @@
+package EntradaDeDado;
+
+import java.util.Scanner;
+public class dados {
+
+  public static void main(String[] args) {
+   
+String name;
+
+Scanner entrada= new Scanner(System.in);
+String name2= new String();
+System.out.println("Digite seu nome");
+name= entrada.nextLine();
+System.out.println("Resultado");
+System.out.println("Seu nome é: "+ name);
+   
+  }
+}
