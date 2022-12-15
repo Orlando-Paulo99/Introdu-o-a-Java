@@ -1,16 +1,21 @@
 public class contaTeste {
 
-	public static void main(String[] args) {
-		contaCorrente c1=new contaCorrente();
-		c1.getVersaldo();
-		c1.setDepositar(2100.0000);
-		System.out.println(c1.getVersaldo());
-		
-		
-		
-		
-		
-		
-	}
+  public static void main(String[] args) {
+     contaCorrente c1=new contaCorrente();
+     c1.nome1="Orlandk";
+     c1.numConta=14668;
+     
+     
+     c1.setDepositar(100);
+     
+            
+            
+            
+     c1.setSacar(100);
+     System.out.println(c1.getmostrarSaldo());
+            
+            
+     
+  }
 
 }
