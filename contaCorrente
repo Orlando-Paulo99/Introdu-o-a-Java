@@ -1,4 +1,0 @@
-public class contaCorrente extends conta{
-	int saldo_da_conta;
-	
-}
