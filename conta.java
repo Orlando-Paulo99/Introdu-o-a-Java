@@ -1,8 +1,11 @@
+package Banco;
+
 public abstract class conta {
 
 public String nome;
 private double saldo;
 public int  nConta;
+private int cpf;
 
 public double getmostrarDeposito(){
     return this.saldo;
@@ -28,9 +31,14 @@ public double getmostrarSaldo(){
   return  this.saldo;
 }
 
+public int getmostrar_cpf(){
+  return this.cpf;
+}
+public void setdigitar_cpf(int z){
+  this.cpf=z;
+}
 
 
 
 
 }
-
