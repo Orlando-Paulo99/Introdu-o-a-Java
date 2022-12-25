@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class operadores {
+
+  public static void main(String[] args) {
+ 
+   Scanner entrada=new Scanner(System.in);
+   System.out.println("Digite a primeira nota do aluno");
+   double resp=entrada.nextDouble();
+   System.out.println("Digite a segunda nota do aluno");
+   double resp2=entrada.nextDouble();
+   System.out.println("Digite a terceira nota do aluno");
+   double resp3=entrada.nextDouble();
+   double media=(resp+resp2+resp3)/3;
+   
+   if(media>=7){
+     System.out.println("Aprovado com sucesso");
+   }
+   else if(media>=5){
+   
+     System.out.println("Aluno em Recuperação ");
+     
+   }
+   
+   else{
+     System.out.println("Aluno Reprovado ");
+   }
+   
+   
+   
+   
+   
+   
+  }
