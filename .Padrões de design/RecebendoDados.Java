@@ -5,7 +5,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class MainE {
-
+	
+	//throws serve para lançar exceções do tipo de Entrada e Saída
 	public static void main(String[] args) throws IOException {
 		
 		//classe para permitir o usuario digitar
